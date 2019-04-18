@@ -52,7 +52,7 @@ First we will learn how to create a project(namespace in Kubernetes). In  this c
 
 To create an *application*, you must first create a new *project*, which will contain the application.
 
-1.  From your browser, visit the OpenShift web console at *https://<MASTER_IP>:8443*. The web site, uses a self-signed certificate,
+1.  From your browser, visit the OpenShift web console at *https://master.bucharest-d7a4.openshiftworkshop.com*. The web site, uses a self-signed certificate,
 so if prompted, continue and ignore the browser warning.
 
 ![](./img/image3.jpg)
