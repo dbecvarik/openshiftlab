@@ -216,7 +216,7 @@ For example: on line 215, change the title to "Welcome to your Django applicatio
  $ git status
 ```
 
-6.  Add config.ru content to the index, Commit the change in *git*, and push the change to your fork. You will need to authenticate with your *github* credentials
+6.  Add index.html content to the index, Commit the change in *git*, and push the change to your fork. You will need to authenticate with your *github* credentials
 
 
 ```bash
