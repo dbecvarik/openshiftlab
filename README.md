@@ -52,7 +52,7 @@ First we will learn how to create a project(namespace in Kubernetes). In  this c
 
 To create an *application*, you must first create a new *project*, which will contain the application.
 
-1.  From your browser, visit the OpenShift web console at *https://master.bucharest-d7a4.openshiftworkshop.com*. The web site, uses a self-signed certificate,
+1.  From your browser, visit the OpenShift web console at *https://master.bratislava-497d.openshiftworkshop.com/console*. The web site, uses a self-signed certificate,
 so if prompted, continue and ignore the browser warning.
 
 ![](./img/image3.jpg)
@@ -256,8 +256,7 @@ During this challenge, we will leverage the CLI tool of OpenShift.
 
 1.  Download and install the OpenShift CLI related to your operating system. The easiest way to download the CLI is by accessing the About page on the web console if your cluster administrator has enabled the download links. Another alternative is to ssh into your bastion host that has the CLI tool installed already.
 
-If you don't have a valid Red Hat subscription, you could still download the oc tool from: https://github.com/CCI-MOC/moc-public/wiki/Installing-the-oc-CLI-tool-of-OpenShift
-
+If you don't have a valid Red Hat subscription, you could still download the oc tool from: https://github.com/openshift/origin/releases/tag/v3.11.0
 2.  Use your openshift url endpoint to login to your environment from the CLI
 
 ``` bash
