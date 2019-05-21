@@ -275,10 +275,10 @@ You have one project on this server: "ocupser1"
 Using project "ocupser1".
 ``` 
 
-3.  Create a new project "nationalparks"
+3.  Create a new project "nationalparks" with a custom suffix
 
 ```bash
-oc new-project nationalparks
+oc new-project nationalparks${suffix}
 ```
 
 4.  From the web console, add a new Java application using the following git lab repository <https://gitlab.com/gshipley/nationalparks.git>
