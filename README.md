@@ -333,7 +333,7 @@ oc logs -f nationalparklocator-1-build
 11. Change the deployment configuration of the front-end application to include the environment variables required to access the database
 
 ```bash
-oc env dc nationalparklocator -e MONGODB_USER=mongodb MONGODB_PASSWORD=mongodb -e MONGODB_DATABASE=mongodb
+oc set env dc nationalparklocator -e MONGODB_USER=mongodb MONGODB_PASSWORD=mongodb -e MONGODB_DATABASE=mongodb
 ```
 
 12. verify the last modification took place by running 
